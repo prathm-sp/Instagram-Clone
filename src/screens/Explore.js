@@ -9,7 +9,7 @@ const Explore = (props) => {
   useEffect(() => {
     props.fetchFeed();
 
-    props.navigation.setOptions({ 
+    props.navigation.setOptions({
       header: () => null
     })
   }, []);
